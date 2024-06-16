@@ -1,8 +1,23 @@
+body{
+    background-image: url(/images/background\ -\ mobile.png);
+}
+
 .logo {
     width: 50px;
 }
 
-body{
-    background-image: url(/images/background\ -\ mobile.png);
-    color: white;
+.img_principal{
+    width: 100%;
 }
+
+.sectionProject{
+    box-shadow: #808080 0px 5px 100px -20px;
+    border-radius: 1em;
+}
+
+.iconProjeto{
+    font-size: 30px;
+}
+
+
+
