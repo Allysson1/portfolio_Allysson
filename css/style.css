@@ -1,9 +1,9 @@
 body{
-    background-image: url(/images/background_mobile.png);
+    background-image: url(../images/background_mobile.png);
 }
 
 .topo{
-    background-image: url(/images/background_mobile_black.png);
+    background-image: url(../images/background_mobile_black.png);
     color: white;
     height: 250px;  
     
