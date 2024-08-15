@@ -2,6 +2,18 @@ body{
     background-image: url(/images/background\ -\ mobile.png);
 }
 
+.topo{
+    background-image: url(/images/background\ -\ mobile\ black.png);
+    color: white;
+    height: 250px;  
+    
+}
+
+.stylemain{
+    box-shadow: #808080 0px 5px 100px -20px;
+    border-radius: 1em;
+}
+
 .logo {
     width: 50px;
 }
@@ -17,7 +29,19 @@ body{
 
 .iconProjeto{
     font-size: 30px;
+    color: black;
 }
+
+a{
+    color: black;
+    
+}
+
+a:hover{
+    color: #808080;
+    text-decoration: none;
+}
+
 
 
 
