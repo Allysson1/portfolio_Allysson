@@ -1,11 +1,15 @@
-body{
-    background-image: url(../images/background_mobile.png);
+.aprensentacao{
+    text-decoration:underline;
 }
 
+body{
+    text-align: justify;
+}
+
+
+
 .topo{
-    background-image: url(../images/background_mobile_black.png);
-    color: white;
-    height: 250px;  
+    height: 200px;  
     
 }
 
@@ -20,6 +24,10 @@ body{
 
 .img_principal{
     width: 100%;
+}
+
+.resumo{
+text-indent: 2em;
 }
 
 .sectionProject{
@@ -42,6 +50,29 @@ a:hover{
     text-decoration: none;
 }
 
+
+/* Medium devices (tablets, 768px and up) - Allysson */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .aprensentacao{
+        font-size: 35px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) - Allysson*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+  } 
+  
+  /* Extra large devices (large desktops, 1200px and up) - Allysson*/
+  @media (min-width: 1200px) {
+    .aprensentacao{
+        font-size: 50px;
+    }
+
+    article, aside, p, div{
+        font-size: x-large;
+    }
+  }
 
 
 
